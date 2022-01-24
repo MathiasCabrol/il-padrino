@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="ilpadrino.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Il Padrino</title>
+</head>
+
+<body style="background-color: #426d49;">
+
+    <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#nosMenus" id="cc">Formules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" title="Pizzas" href="#pizzas">Pizzas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#plats" id="cc">Plats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#accompagnements"
+                            id="cc">Accompagnements</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Boissons et desserts</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="#softDrinks">Boissons Soft</a></li>
+                            <li><a class="dropdown-item text-white" href="#drinks">Boissons alcoolisées</a></li>
+                            <li><a class="dropdown-item text-white" href="#desserts">Nos desserts maison</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-center text-center">
+                <div class="col-12">
+                    <img src="img/il_padrino.png" alt="LOGO DU RESTAURANT" class="img-fluid logo" />
+                    <!--LOGO-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Début du slide 4-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 my-3 text-center d-none d-lg-block d-md-block d-xxl-block d-xl-block">
+
+                <!-- Caroussel 2 -->
+
+                <div id="slide4" class="carousel slide" data-ride="carousel">
+                    <!-- Indicateurs -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slide4" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide4" data-slide-to="1"></li>
+                        <li data-target="#slide4" data-slide-to="2"></li>
+                    </ul>
+                    <!-- Carrousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <img class="imageRestau" src="img/photoBar.jpg" alt="Photo du comptoir bar"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imageRestau" src="img/photoSalle.jpg" alt="Photo de la salle du restaurant"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imageRestau" src="img/photoTerrasse.jpg"
+                                alt="Photo de la terrasse de l'établissement" class="d-block w-100">
+                        </div> <!-- Fermeture caroussel-item -->
+                    </div> <!-- Fermeture caroussel inner -->
+                </div>
+            </div>
+            <!--Fin de la col-->
+        </div>
+        <!--Fin du row-->
+    </div>
+    <!--Fin du container-fluid-->
+    <!--Fin du slide4-->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-center police text-white mb-5">
+                <div class="col-10">
+                    <p class="introduction ">"C'est en parcourant notre carte que vous pourrez voyager au
+                        pays du soleil, ce pays qui nous offre une gastronomie à la fois généreuse
+                        et raffinée. Pour un moment convivial en famille ou pour célébrer une
+                        réunion entre amis, Il Padrino saura vous faire plaisir et
+                        égayer tous vos sens. Détendez-vous et lancez-vous
+                        dans cette aventure, et vivez un vrai moment de partage autour d'une bonne pizza".</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--SADISH OFFRE DU MOMENT/MAP/AVIS CLTS-->
+        <div class="container-fluid">
+            <div class="row align-items-center text-center">
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 image">
+                    <img src="img/carte_il_padrino.jpg" alt="carte map" class="map" />
+                </div>
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 text-light texte-decoration-underline">
+                    <p>Info pratique:<br />
+                        Parking gratuit, et possibilité de se garer proche du jardin du carrousel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center my-3 py-3">
+            <div class="col-12 pic">
+                <p class="text-white"> " Très bon restaurant et personnel très sympathique " <br />
+                    Mario.P<br />
+                    " Nous avons été agréablement surpris en famille"<br />
+                    Josette.C
+                    " Endroit très chic et prix abordable"<br />
+                    Mike.G
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Menus -->
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="titreMenus h3" id="nosMenus">Nos menus</h2>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center text-center align-items-center">
+            <div class="col-10 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <p class="text-white">Menu du Jour (Midi uniquement)</p>
+                <p class="text-white">1 pizza + 1 accompagnement 13€</p>
+                <p class="text-white">1 pizza + 1 accompagnement+ 1 boisson 16€</p>
+            </div>
+            <div class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                <span class="vertical-line"></span>
+            </div>
+            <div class="col-10 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-white mt-5 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0">
+                <p>Menu</p>
+                <p>1 pizza + 1 accompagnement 20€</p>
+                <p>1 pizza + 1 accompagnement + 1 boisson 16€</p>
+            </div>
+            <div class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                <span class="vertical-line"></span>
+            </div>
+            <div class="col-10 mt-5 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-white">
+                <p>Menu Bambino</p>
+                <p>1 mini-pizza + 1 accompagnement + 1 boisson 13€</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin des menus -->
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-10">
+                <h2 class="titreMenus h3 text-center" id="pizzas">Pizzas</h2>
+                <h3 class="titreMenus h4 text-center mt-4">Les classiques</h3>
+            </div>
+        </div>
+
+        <!-- Fin titre pizzas -->
+
+        <div class="row mt-4 justify-content-center text-center">
+            <div class="col-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5 bordeaux p-2 mt-3">
+
+                <!-- Caroussel 1 -->
+
+                <div id="slide1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicateurs -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slide1" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide1" data-slide-to="1"></li>
+                        <li data-target="#slide1" data-slide-to="2"></li>
+                    </ul>
+                    <!-- Carrousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/pizza-marguerite.jpg" alt="Carrousel slide 1" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Pizza Marguerite</h3>
+                                <p>Base tomate - mozzarella - olives</p>
+                                <p>12€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pizza-royale.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Pizza royale</h3>
+                                <p>Base tomate - mozzarella - jambon - champignons - olives</p>
+                                <p>16€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pizza-4-fromages.jpg" alt="Carrousel slide 3" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Pizza 4 fromages</h3>
+                                <p>Base crème - mozzarella - gorgonzola - Chèvre - reblochon - olives</p>
+                                <p>18€</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contrôles -->
+                    <a class="carousel-control-prev" href="#slide1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slide1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5 bordeaux mx-4 p-2 mt-3">
+
+                <!-- Caroussel 2 -->
+
+                <div id="slide2" class="carousel slide" data-ride="carousel">
+                    <!-- Indicateurs -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slide2" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide2" data-slide-to="1"></li>
+                        <li data-target="#slide2" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/pizza-au-anchois.jpg" alt="Pizza aux anchois" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Napolitaine</h3>
+                                <p>Base tomate - mozzarella - Anchois - olives</p>
+                                <p>14€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/i179955-pizza-bresaola.jpeg" alt="Pizza bresaola" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Mamma Mia</h3>
+                                <p>Sauce tomate - mozzarella - scamorza - bresaola (viande de bœuf séchée) -
+                                    roquette</p>
+                                <p>18€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Pizza-truffs.jpg" alt="Carrousel slide 3" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Oro Nero</h3>
+                                <p>Crème de truffe - burrata - copeaux de parmesan - truffes fraîches - fleur de se
+                                </p>
+                                <p>30€</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contrôles -->
+                    <a class="carousel-control-prev" href="#slide2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slide2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-5 col-lg-5 bordeaux p-2 mt-3">
+
+                <!-- Caroussel 3 -->
+
+                <div id="slide3" class="carousel slide" data-ride="carousel">
+                    <!-- Indicateurs -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slide3" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide3" data-slide-to="1"></li>
+                        <li data-target="#slide3" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- Carrousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/pizza-saumon.jpg" alt="Pizza Saumon" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Al Salmone</h3>
+                                <p>Base crème - mozzarella - saumon mariné - oignons confits - pointe de crème -
+                                    citron - persillade</p>
+                                <p>20€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pizza-mozzarella-pesto.jpg" alt="Pizza Hannibal Lecter" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Hannibal Lecter</h3>
+                                <p>Crème de pesto - burrata - tomates fraîches - olives - vieux balsamico</p>
+                                <p>19€</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pizza-saucisses.jpg" alt="Pizza Calabrèse" class="d-block w-100">
+                            <div class="carousel-caption text-dark">
+                                <h3>Calabrèse</h3>
+                                <p>Sauce tomate - mozzarella - oignons cuisinés - saucisse piquante - viande
+                                    hachée - poivrons rouges</p>
+                                <p>20€</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contrôles -->
+                    <a class="carousel-control-prev" href="#slide3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slide3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Fin pizzas-->
+        <!-- Plats -->
+        <section>
+            <div class="container-fluid ">
+                <div class="row justify-content-center">
+                    <div class="col-10 mt-5 mb-4">
+                        <p class="h3 text-center police titre" id="plats">Plats</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/pates-bolognese.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Bolognese">
+                            <figcaption class="figure-caption text-light">Bolognese 12€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/pates-carbonara.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Carbonara">
+                            <figcaption class="figure-caption text-light">Carbonara 12€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-10">
+                        <span class="horizontal-line"></span>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/pates-crevettes.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Crevettes">
+                            <figcaption class="figure-caption text-light">Crevettes 14€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/lasagnes.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Lasagnes">
+                            <figcaption class="figure-caption text-light">Lasagnes 13€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                </div>
+                <!--Fin row-->
+            </div>
+            <!--Fin container-->
+        </section>
+
+        <!-- Fin Plats -->
+
+
+
+        <!-- Accompagnements -->
+        <section>
+            <div class="container-fluid ">
+                <div class="row justify-content-center">
+                    <div class="col-10 mt-5 mb-4">
+                        <p class="h3 text-center police titre" id="accompagnements">Accompagnements</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/salade-legumes.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Salade Légumes">
+                            <figcaption class="figure-caption text-light">Salade légumes 12€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/salade-figues.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Salade Figues">
+                            <figcaption class="figure-caption text-light">Salade figues 12€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-10">
+                        <span class="horizontal-line"></span>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/salade-tomate.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Salade Mozzarella">
+                            <figcaption class="figure-caption text-light">Salade Mozzarella 13€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/antipasti.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Antipasti">
+                            <figcaption class="figure-caption text-light">Antipasti 8€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                </div>
+                <!--Fin row-->
+            </div>
+            <!--Fin container-->
+        </section>
+        <!-- Fin des accompagnements -->
+        <!--JOELLE DESSERTS ET BOISSONS-->
+        <section>
+            <div class="container-fluid ">
+                <div class="row justify-content-center">
+                    <div class="col-10 mt-5 ">
+                        <p class="h3 text-center police titre" id="desserts">Desserts et boissons</p>
+                        <p class="h4 text-center police soustitre">Desserts</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/tiramisu.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Tiramisu">
+                            <figcaption class="figure-caption text-light">Tiramisu 8€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/panna-cotta.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Panna Cotta">
+                            <figcaption class="figure-caption text-light">Panna Cotta 8€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-10">
+                        <span class="horizontal-line"></span>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/dessert.jpg" class="figure-img img-fluid w-md-75 TailleImages" alt="Glace">
+                            <figcaption class="figure-caption text-light">Glace 7€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                    <div class="col-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <figure class="figure">
+                            <img src="./img/ricciarelli.jpg" class="figure-img img-fluid w-md-75 TailleImages"
+                                alt="Ricciarelli">
+                            <figcaption class="figure-caption text-light">Ricciarelli 8€</figcaption>
+                        </figure>
+                    </div>
+                    <!--Fin col-->
+                </div>
+                <!--Fin row-->
+            </div>
+            <!--Fin container-->
+        </section>
+        <section>
+            <div class="container-fluid text-center m-0 p-0">
+                <div class="row justify-content-center text-center align-items-center mt-5">
+                    <div class="col-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+                        <p class="h4 text-center police soustitre" id="softDrinks">Boissons Soft</p>
+                        <p class="text-light">Cocktail Florence<span class="boisson-line" id="cocktail"></span>7.00
+                        <p class="text-light">Diabolo avec sirop<span class="boisson-line" id="diabolo"></span>4.50
+                        </p>
+                        <p class="text-light">Schweppes<span class="boisson-line" id="schweppes"></span>4.50</p>
+                        <p class="text-light">Sprite<span class="boisson-line" id="sprite"></span>4.50</p>
+                        <p class="text-light">Perrier<span class="boisson-line" id="perrier"></span>4.50</p>
+                        <p class="text-light">Fuze Tea<span class="boisson-line" id="fuze-tea"></span>4.50</p>
+                        <p class="text-light">Virgin Mojito framboise<span class="boisson-line"
+                                id="virginframboise"></span>4.50</p>
+                        <p class="text-light">Virgin Mojito<span class="boisson-line" id="virginmojito"></span>4.50</p>
+                        <p class="text-light">Limonade<span class="boisson-line" id="limonade"></span>4.50</p>
+                        <p class="text-light">Fanta<span class="boisson-line" id="fanta"></span>4.50</p>
+                        <p class="text-light">Orangina<span class="boisson-line" id="orangina"></span>4.50</p>
+                        <p class="text-light">Coca Cherry<span class="boisson-line" id="cocacherry"></span>4.50
+                        </p>
+                        <p class="text-light">Coca-Cola<span class="boisson-line" id="cocacola"></span>4.50</p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mt-5">
+                        <p class="h4 text-center police soustitre" id="drinks">Boissons Alcoolisées</p>
+                        <p class="text-light">Spritz<span class="boisson-line" id="spritz"></span>9.00</p>
+                        <p class="text-light">Limoncello Spritz<span class="boisson-line" id="limoncello"></span>9.00
+                        </p>
+                        <p class="text-light">Bellini<span class="boisson-line" id="bellini"></span>9.00</p>
+                        <p class="text-light">Daïquiri<span class="boisson-line" id="daïquiri"></span>12.00</p>
+                        <p class="text-light">Rhum Coca<span class="boisson-line" id="rhumCoca"></span>12.00</p>
+                        <p class="text-light">Whisky Coca<span class="boisson-line" id="whiskyCoca"></span>12.00</p>
+                        <p class="text-light">Barbottage<span class="boisson-line" id="barbottage"></span>12.00</p>
+                        <p class="text-light">Kir impérial au Champagne<span class="boisson-line" id="kir"></span>13.00
+                        </p>
+                        <p class="text-light">Bouteille de Prosecco<span class="boisson-line" id="prosecco"></span>32.00
+                        </p>
+                        <p class="text-light">Caïpirinha<span class="boisson-line" id="caïpirinha"></span>9.00</p>
+                        <p class="text-light">Mojito framboise<span class="boisson-line" id="framboise"></span>9.00</p>
+                        <p class="text-light">Gin Bombay Sapphire tonic<span class="boisson-line" id="gin"></span>12.00
+                        </p>
+                        <p class="text-light">Vodka Priskaia<span class="boisson-line" id="vodka"></span>10.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--sadish pour le footer-->
+        <footer id="footer">
+            <div class="container-fluid text-center text-light mt-5 mx-0 p-0">
+                <div class="row justify-content-between bgfooter align-items-center">
+                    <div class="col-4">
+                        <p id="adresse">Il padrino<br />
+                            107, rue de Rivoli<br />
+                            75001 Paris
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p id="tel">07.01.02.03.04<br />
+                            01.46.47.48.49<br />
+                        </p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <i class="fas fa-envelope"></i>
+                        <p>ilpadrino@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center bgfooter">
+                    <div class="col-3 col-md-1 mx-2 mx-md-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square"
+                            class="sable svg-inline--fa fa-facebook-square fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="col-3 col-md-1">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram-square"
+                            class=" sable svg-inline--fa fa-instagram-square fa-w-8" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="col-3 col-md-1 mx-2 mx-md-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
+                            class="sable svg-inline--fa fa-linkedin fa-w-8" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <!--balise fermante row icon-->
+            </div>
+            <!--balise fermante container-fluid-->
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

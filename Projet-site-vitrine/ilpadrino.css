@@ -1,0 +1,347 @@
+.police
+{
+    font-family: Apple Chancery, cursive;
+}
+body
+{
+    background-color: #426D49;
+}
+
+.bgcolor
+{
+    background-color: #426D49;
+}
+.sable
+{
+    color: #cfab6d;
+}
+.bgfooter
+{
+    background-color: #7b2e24 ;
+}
+.police-apple
+{
+    font-family: Apple Chancery, cursive;
+}
+footer
+{
+    bottom: 0;
+    position: relative;
+}
+
+#adresse
+{
+margin: 10px;
+padding: 10px;
+}
+#tel
+{
+    margin: 10px;
+    padding: 10px;
+}
+.titreMenus {
+    font-family: Apple Chancery, cursive;
+    color: white;
+}
+body {
+    background-color: #426D49;
+}
+.vertical-line {
+    border-left: 2px solid #CFAB6D;
+    display: inline-block;
+    height: 170px;
+    margin: 0 20px;
+  }
+
+img {
+    width: 400px;
+    height: 300px;
+    opacity: 0.8;
+}
+#slide1 {
+    border: 2px solid #CFAB6D;
+}
+#slide2 {
+    border: 2px solid #CFAB6D;
+}
+.bordeaux {
+    background-color: #7B2E24;
+}
+.titre 
+{
+    color: white;
+}
+
+.soustitre 
+{
+    color: white;
+    margin-bottom: 50px;
+}
+.TailleImages
+{
+    /* width: 130px; */
+    max-height: 280px;
+    border: 1px solid #CFAB6D;
+}
+.horizontal-line
+{
+    width: 150px;
+    height: 15px;
+    display: inline-block;
+    border-top: 2px solid #CFAB6D;
+}
+
+.boisson-line
+{
+    display: inline-block;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#descriptioncocktail
+{
+    font-size: small;
+    text-align: left;
+
+}
+#cocktail
+{
+    width: 125px;
+}
+#diabolo
+{
+    width: 120px;
+}
+#schweppes
+{
+    width: 170px;
+}
+
+#sprite
+{
+    width: 210px;
+}
+
+#perrier
+{
+    width: 205px;
+}
+
+#fuze-tea
+{
+    width: 190px;
+}
+
+#virginframboise
+{
+    width: 85px;
+}
+
+#virginmojito
+{
+    width: 160px;
+}
+
+#limonade
+{
+    width: 185px;
+}
+
+#fanta
+{
+    width: 215px;
+}
+
+#orangina
+{
+    width: 190px;
+}
+
+#cocacherry
+{
+    width: 170px;
+}
+
+#cocacola
+{
+    width: 185px;
+}
+.fondavis
+{
+    opacity: 50%;
+}
+#spritz
+{
+    width: 216px;
+}
+
+
+#limoncello
+{
+    width: 136px;
+}
+
+#bellini
+{
+    width: 218px;
+}
+
+#daïquiri
+{
+    width: 200px;
+}
+
+#rhumCoca
+{
+    width: 172px;
+}
+
+#whiskyCoca
+{
+    width: 162px;
+}
+
+#barbottage
+{
+    width: 176px;
+}
+
+#kir
+{
+    width: 62px;
+}
+
+#prosecco
+{
+    width: 100px;
+}
+
+#caïpirinha
+{
+    width: 196px;
+}
+
+#framboise
+{
+    width: 148px;
+}
+
+#gin
+{
+    width: 68px;
+}
+
+#vodka
+{
+    width: 158px;
+}
+.map
+{
+  
+    width: 100%;
+}
+
+  .pic{
+      background-image: url("img/mediterranean-cuisine-g6ba7131c4_640.jpg");
+opacity: 0.5;
+  }
+.introduction{
+    font-size: 18px;
+}
+#navbar{
+    background-color: #7B2E24;
+}
+.navbar-brand{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #c5a46bea;
+}
+.navbar-nav{
+    font-family: Helvetica;
+}
+#reservez{
+    transform: rotate(90deg);
+    font-size: 32px;
+    z-index: 5;
+}
+.rouge{
+    background-color: #7B2E24;
+    border: 2.5px solid #c5a46bea;
+    height: 46px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 5%;
+}
+ .position{
+     position: fixed;
+     top: 170px;
+     right: 0;
+     margin: 0;
+     left: 69%;
+ }
+ 
+
+ @media screen and (min-width: 768px)
+ {
+
+    .position{
+        position: fixed;
+        top: 220px;
+        right: 0;
+        margin: 0;
+        left: 89.5%
+    }
+
+    .rouge{
+        height: auto;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    #reservez{
+        font-size: 41px;
+
+    }
+
+    .introduction
+    {
+        font-size: 22px;
+    }
+}
+
+/* Slide principal */
+
+.imageRestau {
+        width: 80%;
+        height: 400px;
+}
+#slide3 {
+    border: 2px solid #CFAB6D;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover
+{
+    color: #c5a46bea;
+}
+.image img {
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.10); 
+    -moz-transform:scale(1.10); 
+    -ms-transform:scale(1.10); 
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
